@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="description"
 	content="VVV Mystic jest największą grupą graczy Pokémon GO we Wrocławiu. ">
-<link type="text/css" rel="stylesheet" href="main.css">
+<link type="text/css" rel="stylesheet" href="css/main.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -14,8 +14,8 @@
 </head>
 <body ng-app="main" ng-controller="mainCtrl">
 	<section ng-include="'components/menu.html'"></section>
-	<section ng-repeat="movie in movies" class="text-center">
-		<span ng-if="$even" class="movie_title">{{movie}}</span>
+	<section ng-repeat="movie in movies" class="text-center section">
+		<span ng-if="$even" class="title">{{movie}}</span>
 		<iframe ng-if="$odd" class="youtube_video" ng-src="{{trustSrc(movie)}}" allowfullscreen>
 		</iframe>
 		
@@ -25,6 +25,6 @@
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<script
 		src="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/media.js"></script>
 </body>
 </html>

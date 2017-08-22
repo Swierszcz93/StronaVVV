@@ -41,7 +41,7 @@ html {
 body {
 	margin: 0;
 	background-position: 0% 0%;
-	background: url("images/BANER_clear.png") no-repeat fixed;
+	background: url("../images/BANER_clear.png") no-repeat fixed;
 	background-size: 100% 100%;
 	padding: 0;
 	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -1605,7 +1605,7 @@ p+.stat {
 	text-align: justify;
 }
 
-.movie_title {
+.title {
 	font-size: 200%;
 }
 
@@ -5189,6 +5189,7 @@ font-weight
 	padding: 3.75rem 0;
 	background: #fff;
 	height: auto;
+	opacity: 0.8;
 }
 
 .section#contact {
@@ -5196,6 +5197,7 @@ font-weight
 }
 
 .section#highlights {
+	margin-top:100vh;
 	border-bottom: 8px solid #FFCD26;
 	border-top: 8px solid #FFCD26;
 	box-shadow: 0px -20px 150px 100px rgba(0, 0, 0, 0.1);
@@ -5213,19 +5215,19 @@ font-weight
 }
 
 .section#highlights .pokeball {
-	background: url("images/pokeball_icon.png");
+	background: url("../images/pokeball_icon.png");
 	background-position: center;
 	background-size: contain;
 }
 
 .section#highlights .greatball {
-	background: url("images/greatball_icon.png");
+	background: url("../images/greatball_icon.png");
 	background-position: center;
 	background-size: contain;
 }
 
 .section#highlights .ultraball {
-	background: url("images/ultraball_icon.png");
+	background: url("../images/ultraball_icon.png");
 	background-position: center;
 	background-size: contain;
 }
@@ -5268,7 +5270,7 @@ font-weight
 	top: 0;
 	left: 0;
 	right: 0;
-	background: url("images/BANER_clear.png");
+	background: url("../images/BANER_clear.png");
 	background-position: center 70%;
 	background-size: cover;
 	text-align: center;
@@ -5442,8 +5444,4 @@ font-weight
 .center-vertically .columns {
 	display: inline-block;
 	vertical-align: middle;
-}
-
-body {
-	padding-top: 100vh;
 }
