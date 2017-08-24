@@ -43,7 +43,7 @@ body {
 	background-position: 0% 0%;
 	background: url("../images/BANER_clear.png") no-repeat fixed;
 	background-size: 100% 100%;
-	padding: 0;
+	padding-top: 70px;
 	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 	font-weight: normal;
 	line-height: 1.5;
@@ -1612,6 +1612,7 @@ p+.stat {
 .youtube_video {
 	width: 80%;
 	height: 500px;
+	opacity: 1;
 }
 
 @media print , screen and (min-width: 40em) {
@@ -5190,6 +5191,8 @@ font-weight
 	background: #fff;
 	height: auto;
 	opacity: 0.8;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .section#contact {
@@ -5444,4 +5447,7 @@ font-weight
 .center-vertically .columns {
 	display: inline-block;
 	vertical-align: middle;
+}
+iframe {
+	opacity: 1;
 }

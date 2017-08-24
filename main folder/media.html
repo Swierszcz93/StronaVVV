@@ -14,14 +14,15 @@
 </head>
 <body ng-app="main" ng-controller="mainCtrl">
 	<section ng-include="'components/menu.html'"></section>
-	<section ng-repeat="movie in movies" class="text-center section">
-		<span ng-if="$even" class="title">{{movie}}</span>
-		<iframe ng-if="$odd" class="youtube_video" ng-src="{{trustSrc(movie)}}" allowfullscreen>
-		</iframe>
-		
+	<section id="media" class="section">
+		<section ng-repeat="movie in movies" class="text-center">
+			<span ng-if="$even" class="title">{{movie}}</span>
+			<iframe ng-if="$odd" class="youtube_video"
+				ng-src="{{trustSrc(movie)}}" allowfullscreen> </iframe>
+		</section>
 	</section>
 	<script
-	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<script
 		src="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js"></script>
