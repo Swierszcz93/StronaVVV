@@ -16,7 +16,8 @@
 	<section ng-include="'components/menu.html'"></section>
 	<section id="media" class="section">
 		<section ng-repeat="movie in movies" class="text-center">
-			<span ng-if="$even" class="title">{{movie}}</span>
+			<span ng-if="$even" class="title">{{movie.split("by")[0]}}</span>
+			<span ng-if="$even" class="title-small">by {{movie.split("by")[1]}}</span>
 			<iframe ng-if="$odd" class="youtube_video"
 				ng-src="{{trustSrc(movie)}}" allowfullscreen> </iframe>
 		</section>

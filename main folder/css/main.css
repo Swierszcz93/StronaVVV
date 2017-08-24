@@ -1606,7 +1606,10 @@ p+.stat {
 }
 
 .title {
-	font-size: 200%;
+	font-size: 2em;
+}
+.title-small {
+	font-size: 1em;
 }
 
 .youtube_video {
@@ -5200,7 +5203,7 @@ font-weight
 }
 
 .section#highlights {
-	margin-top:100vh;
+	margin-top:80vh;
 	border-bottom: 8px solid #FFCD26;
 	border-top: 8px solid #FFCD26;
 	box-shadow: 0px -20px 150px 100px rgba(0, 0, 0, 0.1);
@@ -5449,5 +5452,8 @@ font-weight
 	vertical-align: middle;
 }
 iframe {
-	opacity: 1;
+	opacity: 2;
+}
+.section#40lvlsection {
+	width: 50%;
 }
