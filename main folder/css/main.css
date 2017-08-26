@@ -5205,6 +5205,7 @@ font-weight
 	border-bottom: 8px solid #FFCD26;
 	border-top: 8px solid #FFCD26;
 	box-shadow: 0px -20px 150px 100px rgba(0, 0, 0, 0.1);
+	margin-top: 80vh;
 }
 
 .section#highlights .pokeball, .section#highlights .greatball, .section#highlights .ultraball
