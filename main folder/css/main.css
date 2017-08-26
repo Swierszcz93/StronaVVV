@@ -5191,9 +5191,8 @@ font-weight
 	z-index: 3;
 	position: relative;
 	padding: 3.75rem 0;
-	background: #fff;
+	background: rgba(255,255,255,0.5);
 	height: auto;
-	opacity: 0.8;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -5203,7 +5202,6 @@ font-weight
 }
 
 .section#highlights {
-	margin-top:80vh;
 	border-bottom: 8px solid #FFCD26;
 	border-top: 8px solid #FFCD26;
 	box-shadow: 0px -20px 150px 100px rgba(0, 0, 0, 0.1);
@@ -5452,8 +5450,10 @@ font-weight
 	vertical-align: middle;
 }
 iframe {
-	opacity: 2;
 }
-.section#40lvlsection {
-	width: 50%;
+.section#section40lvl {
+}
+.table-40lvl {
+	margin: auto;
+	width: 60%;
 }
