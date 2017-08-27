@@ -1,11 +1,23 @@
 
 <section class="menu-bar">
-	<nav>
-		<ul class="menu">
+	<nav class="">
+		<ul class="menu" id="menu">
 			<li class="menu-item"><a href="index.html">VVV Wrocław</a></li>
 			<li class="menu-item"><a href="media.html">Filmy</a></li>
 			<li class="menu-item"><a href="40lvl.html">Gracze 40 lvl</a></li>
 			<li class="menu-item"><a href="players.html">Nasi gracze</a></li>
 		</ul>
+		<a href="javascript:void(0);" class="menu-mobile-icon" onclick="openMobileMenu()">&#9776;</a>
 	</nav>
+	<script type="text/javascript">
+		function openMobileMenu() {
+			//alert("jestem");
+			var menu = document.getElementById("menu");
+			if (menu.className === "menu") {
+				menu.className += " responsive";
+			} else {
+				menu.className = "menu";
+			}
+		}
+	</script>
 </section>
