@@ -1,0 +1,152 @@
+html {
+	font-family: sans-serif;
+	/* 1 */
+	line-height: 1.15;
+	/* 2 */
+	-ms-text-size-adjust: 100%;
+	/* 3 */
+	-webkit-text-size-adjust: 100%;
+	/* 3 */
+}
+
+/* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers (opinionated).
+     */
+body {
+	margin: 0px;
+	margin-top: 70px;
+	padding: 0px;
+	background-position: 0% 0%;
+	background: url("../images/BANER_clear.png") no-repeat fixed;
+	background-size: 100% 100%;
+	font-family: sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #0a0a0a;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.menu-bar {
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: #e6e6e6;
+	width: 100%;
+}
+
+.menu {
+	list-style: none;
+	position: relative;
+	justify-content: center;
+	display: flex;
+}
+
+.menu-item a {
+	float: left;
+	margin: 20px 20px 0px 0px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding: 0.7rem 1rem;
+	line-height: 0;
+	font-size: 120%;
+	color: black;
+}
+
+.section {
+	padding: 5%;
+	background: rgba(255, 255, 255, 0.5);
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.title {
+	font-size: 2em;
+}
+
+.title-small {
+	font-size: 1em;
+}
+
+.youtube_video {
+	width: 80%;
+	height: 500px;
+	opacity: 1;
+	margin-bottom: 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.pokeball, .greatball, .ultraball {
+	margin: 50px auto;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	border: -1px solid transparent;
+	box-shadow: inset -5px -5px 20px 0px #333;
+	background-position: center;
+}
+
+.pokeball {
+	background: url("../images/pokeball_icon.png");
+	background-size: contain;
+}
+
+.greatball {
+	background: url("../images/greatball_icon.png");
+	background-size: contain;
+}
+
+.ultraball {
+	background: url("../images/ultraball_icon.png");
+	background-size: contain;
+}
+
+.contact {
+	color: #fee101;
+}
+
+#contact {
+	border-top: 16px solid #fee101;
+}
+
+.paragraph {
+	font-size: 120%;
+	color: #000;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+#highlights {
+	border-top: 8px solid #fee101;
+	margin-top: 90vh;
+}
+
+.table-40lvl {
+	border-collapse: collapse;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.table-40lvl td {
+	border: 2px solid #0088ff;
+	padding: 10px;
+}
+
+.table-players {
+	width: 100%;
+}
