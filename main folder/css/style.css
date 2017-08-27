@@ -21,7 +21,7 @@ body {
 	background-position: 0% 0%;
 	background: url("../images/BANER_clear.png") no-repeat fixed;
 	background-size: 100% 100%;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-family: sans-serif;
 	font-weight: normal;
 	line-height: 1.5;
 	color: #0a0a0a;
@@ -39,6 +39,7 @@ a:hover {
 }
 
 .menu-bar {
+	font-family: "Chivo", serif;
 	top: 0;
 	left: 0;
 	position: fixed;
@@ -60,7 +61,7 @@ a:hover {
 	padding-bottom: 0;
 	padding: 0.7rem 1rem;
 	line-height: 0;
-	font-size: 150%;
+	font-size: 120%;
 	color: black;
 }
 
@@ -134,4 +135,13 @@ a:hover {
 #highlights {
 	border-top: 8px solid #fee101;
 	margin-top: 90vh;
+}
+.table-40lvl{
+	border-collapse: collapse;
+	width: 70%;
+	margin: 0 auto;
+}
+.table-40lvl td{
+	border: 2px solid #0088ff;
+	padding: 10px;
 }
