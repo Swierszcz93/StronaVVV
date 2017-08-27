@@ -22,7 +22,7 @@
 <body ng-app="main" ng-controller="mainCtrl">
 	<section ng-include="'components/menu.html'"></section>
 	<section id="section-players" class="section">
-		<section class="title text-center">Kto już z nami gra</section>
+		<section class="title-medium text-center">Kto już z nami gra</section>
 		<table class="col-xs-12 col-sm-6 col-md-3 table-players" ng-repeat="table in nicknames">
 			<tr ng-repeat="row in table">
 				<td>{{row}}</td>
