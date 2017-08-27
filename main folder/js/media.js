@@ -8,3 +8,14 @@ app.controller('mainCtrl', function($scope, $http, $sce) {
 		$scope.movies = response.data.split('\n');
 	});
 });
+$(document).ready(setTimeout(function() {
+	setHeightForVideos();
+}, 100));
+
+function setHeightForVideos() {
+	var videos = document.querySelectorAll(".youtube_video");
+	for (i = 0; i < videos.length; i++) {
+		videos[i].style.height = (videos[i].offsetWidth * 9 / 16) + "px";
+	}
+	
+}
