@@ -144,7 +144,9 @@ a:hover {
 	border-top: 8px solid #fee101;
 	margin-top: 90vh;
 }
-
+#section-players {
+	overflow: auto;
+}
 .table-40lvl {
 	border-collapse: collapse;
 	width: 70%;
@@ -157,7 +159,7 @@ a:hover {
 }
 
 .table-players {
-	width: 100%;
+	float: left;
 }
 /*media queries for responsive menu*/
 @media screen and (max-width: 800px) {
