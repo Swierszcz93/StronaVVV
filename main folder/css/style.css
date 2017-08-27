@@ -28,20 +28,37 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: underline;
+}
 .menu-bar {
 	top: 0;
 	left: 0;
 	position: fixed;
 	background-color: #e6e6e6;
-	text-align: center;
 	width: 100%;
+	box-sizing: inherit;
 }
 .menu {
 	list-style: none;
+	position: relative;
+	justify-content: center;
+	display: flex;
+	box-sizing: inherit;
 }
 .menu-item {
 	float: left;
-	margin: 20px;
+	margin-left: 20px;
+	box-sizing: inherit;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding: 0.7rem 1rem;
+	line-height: 0;
+	font-size: 150%;
 }
 .section {
 	padding: 3.75rem 0;
@@ -65,4 +82,32 @@ body {
 }
 .text-center {
 	text-align: center;
+}
+.pokeball, .greatball, .ultraball
+	{
+	margin: 50px auto;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	border: -1px solid transparent;
+	box-shadow: inset -5px -5px 20px 0px #333;
+	background-position: center;
+}
+
+.pokeball {
+	background: url("../images/pokeball_icon.png");
+	background-position: center;
+	background-size: contain;
+}
+
+.greatball {
+	background: url("../images/greatball_icon.png");
+	background-position: center;
+	background-size: contain;
+}
+
+.ultraball {
+	background: url("../images/ultraball_icon.png");
+	background-position: center;
+	background-size: contain;
 }
