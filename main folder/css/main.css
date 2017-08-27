@@ -4383,11 +4383,13 @@ table {
 	width: 100%;
 	margin-bottom: 1rem;
 	border-radius: 0;
+	border-collapse: collapse;
 }
-
+table, th, td {
+	border: 2px solid #0088ff;
+}
 table thead, table tbody, table tfoot {
 	border: 1px solid #f1f1f1;
-	background-color: #fefefe;
 }
 
 table caption {
@@ -4420,8 +4422,6 @@ table tbody th, table tbody td {
 }
 
 table tbody tr:nth-child(even) {
-	border-bottom: 0;
-	background-color: #f1f1f1;
 }
 
 table.unstriped tbody {
