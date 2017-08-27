@@ -21,7 +21,7 @@
 	<section ng-include="'components/menu.html'"></section>
 	<section id="section-players" class="section">
 		<section class="title text-center">Kto już z nami gra</section>
-		<table>
+		<table class="table-players">
 			<tr ng-repeat="row in nicknames">
 				<td ng-repeat="cell in row">{{cell}}</td>
 			</tr>

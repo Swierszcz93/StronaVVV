@@ -135,12 +135,18 @@ a:hover {
 	border-top: 8px solid #fee101;
 	margin-top: 90vh;
 }
-.table-40lvl{
+
+.table-40lvl {
 	border-collapse: collapse;
 	width: 70%;
 	margin: 0 auto;
 }
-.table-40lvl td{
+
+.table-40lvl td {
 	border: 2px solid #0088ff;
 	padding: 10px;
+}
+
+.table-players {
+	width: 100%;
 }
