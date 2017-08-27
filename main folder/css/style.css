@@ -1,0 +1,68 @@
+html {
+	font-family: sans-serif;
+	/* 1 */
+	line-height: 1.15;
+	/* 2 */
+	-ms-text-size-adjust: 100%;
+	/* 3 */
+	-webkit-text-size-adjust: 100%;
+	/* 3 */
+}
+
+/* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers (opinionated).
+     */
+body {
+	margin: 0px;
+	margin-top: 70px;
+	padding: 0px;
+	background-position: 0% 0%;
+	background: url("../images/BANER_clear.png") no-repeat fixed;
+	background-size: 100% 100%;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #0a0a0a;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.menu-bar {
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: #e6e6e6;
+	text-align: center;
+	width: 100%;
+}
+.menu {
+	list-style: none;
+}
+.menu-item {
+	float: left;
+	margin: 20px;
+}
+.section {
+	padding: 3.75rem 0;
+	background: rgba(255,255,255,0.5);
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.title {
+	font-size: 2em;
+}
+.title-small {
+	font-size: 1em;
+}
+
+.youtube_video {
+	width: 80%;
+	height: 500px;
+	opacity: 1;
+	margin-bottom: 50px;
+}
+.text-center {
+	text-align: center;
+}
