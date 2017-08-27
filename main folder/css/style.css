@@ -85,9 +85,11 @@ a:hover {
 .title {
 	font-size: 2em;
 }
+
 .title-medium {
 	font-size: 1.5em;
 }
+
 .title-small {
 	font-size: 1em;
 }
@@ -147,9 +149,11 @@ a:hover {
 	border-top: 8px solid #fee101;
 	margin-top: 90vh;
 }
+
 #section-players {
 	overflow: auto;
 }
+
 .table-40lvl {
 	border-collapse: collapse;
 	width: 70%;
@@ -164,8 +168,10 @@ a:hover {
 .table-players {
 	float: left;
 }
-.subscribe_channel{
-	width: 100%;
+
+.subscribe_channel {
+	z-index: 50; 
+	width : 100%;
 	height: 100px;
 }
 /*media queries for responsive menu*/
