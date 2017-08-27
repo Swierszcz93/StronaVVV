@@ -176,6 +176,7 @@ a:hover {
 }
 /*media queries for responsive menu*/
 @media screen and (max-width: 800px) {
+	.title {font-size: 1.5em;}
 	.menu-mobile-icon {
 		float: right;
 		display: block;
@@ -183,9 +184,6 @@ a:hover {
 	.menu li:not(:first-child) {
 		display: none;
 	}
-}
-
-@media screen and (max-width: 800px) {
 	.menu.responsive {
 		position: relative;
 		display: block;
