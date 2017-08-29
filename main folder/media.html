@@ -30,10 +30,10 @@
 
 		</section>
 		<section ng-repeat="movie in movies" class="text-center">
-			<span ng-if="$even" class="title">{{movie.split(";")[0]}}</span> <span
-				ng-if="$even" class="title-small">{{movie.split(";")[1]}}</span>
-			<iframe ng-if="$odd" class="youtube_video"
-				ng-src="{{trustSrc(movie)}}" allowfullscreen> </iframe>
+			<span class="title"> {{movie.split(";")[0]}} </span> 
+			<span class="title-small">{{movie.split(";")[1]}}</span>
+			<iframe class="youtube_video"
+				ng-src="{{trustSrc(movie.split(';')[2])}}" allowfullscreen> </iframe>
 		</section>
 
 	</section>
