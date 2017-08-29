@@ -75,11 +75,11 @@ a:hover {
 }
 
 .section {
-	padding: 5%;
+	padding: 5vw;
 	background: rgba(255, 255, 255, 0.5);
 	height: auto;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 5vw;
+	margin-right: 5vw;
 }
 
 .title {
@@ -176,10 +176,14 @@ a:hover {
 	height: 100px;
 }
 /*media queries for mobile view*/
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
 	body{
 		background-size: 160vw 100vh;
 		background-position: -30vw 0;
+	}
+	.section{
+		margin-left: 0;
+		margin-right: 0;
 	}
 	.title {font-size: 1.5em;}
 	.menu-mobile-icon {
