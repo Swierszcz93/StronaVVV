@@ -1,0 +1,2 @@
+Jak łapać legendy?;legends-catching;legends-catching.txt
+Tabele min-max CP raidbossów;raidbosses-cp;raidboss-cp.txt
