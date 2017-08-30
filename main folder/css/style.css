@@ -170,6 +170,7 @@ a:hover {
 		background-size: 200vw 100vh;
 		background-position: -50vw 0;
 	}
+
 	.section{
 		margin-left: 2vw;
 		margin-right: 2vw;
@@ -194,5 +195,10 @@ a:hover {
 		float: none;
 		display: block;
 		text-align: left;
+	}
+}
+@media screen and (max-width: 580px) {
+	#players-table{
+		margin-left: 30vw;
 	}
 }
