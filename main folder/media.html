@@ -30,10 +30,10 @@
 
 		</section>
 		<section ng-repeat="movie in movies" class="text-center">
-			<span class="title"> {{movie.split(";")[0]}} </span> 
-			<span class="title-small">{{movie.split(";")[1]}}</span>
+			<span class="title"> {{movie[0]}} </span> 
+			<span class="title-small">{{movie[1]}}</span>
 			<iframe class="youtube_video"
-				ng-src="{{trustSrc(movie.split(';')[2])}}" allowfullscreen> </iframe>
+				ng-src="{{trustSrc(movie[2])}}" allowfullscreen> </iframe>
 		</section>
 
 	</section>

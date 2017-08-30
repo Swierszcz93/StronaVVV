@@ -5,7 +5,11 @@ app.controller('mainCtrl', function($scope, $http, $sce) {
 		return $sce.trustAsResourceUrl(src.replace("watch?v=", "embed/"));
 	}
 	$http.get("datafiles/movies.txt").then(function(response) {
-		$scope.movies = response.data.split('\n');
+		var movies = response.data.split('\n');
+		$scope.movies = [];
+		for(var i=0;i<movies.length;i++){
+			$scope.movies.push(movies[i].split(";"));
+		}
 	});
 });
 $(document).ready(setTimeout(function() {
