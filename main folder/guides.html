@@ -21,9 +21,10 @@
 </head>
 <body ng-app="main" ng-controller="mainCtrl">
 	<section ng-include="'components/menu.html'"></section>
-	<section id="guidesTable" class="section">
+	<section id="guidesTable" class="section text-center">
+	<h3 class="title">Poradniki</h3>
 		<select id="guidesSelect" onchange="loadSelectedGuide()">
-			<option value="" disabled selected>Wybierz poradnik</option>
+			<option value="" disabled selected>Wybierz poradnik, który Cię interesuje</option>
 			<option ng-repeat="guide in guidesTable" value="{{guide[1]}}">{{guide[0]}}</option>
 		</select>
 		<section id="guideContent"></section>

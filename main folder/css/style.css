@@ -165,10 +165,26 @@ a:hover {
 }
 
 #guidesSelect {
-	width: 90%;
+	width: 100%;
 	align-horizontal: center;
 }
-
+#guideContent {
+	border-top: 8px solid #fee101;
+	margin-top: 50px;
+	text-align: center;
+}
+.guideTitle{
+	font-size: 2em;
+}
+.guideText{
+	
+}
+.guideImage{
+	
+}
+.guideVideo{
+	
+}
 /*media queries for mobile view*/
 @media screen and (max-width: 800px) {
 	body {

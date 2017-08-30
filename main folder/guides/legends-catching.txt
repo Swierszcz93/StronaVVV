@@ -1,0 +1,2 @@
+title;Jak łapać legendy
+img;10%;100%;images/articuno.png
