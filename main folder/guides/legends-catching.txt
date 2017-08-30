@@ -1,2 +1,6 @@
 title;Jak łapać legendy
-img;10%;100%;images/articuno.png
+text;tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend 
+img;30%;100%;images/articuno.png
+text;tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend 
+video;70vw;50vh;https://www.youtube.com/watch?v=P-6ABQl0Imc
+text;tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend tutaj opis lapania legend 

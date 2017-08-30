@@ -42,6 +42,7 @@ function prepareNewContent(rawText) {
 	for (var i = 0; i < rawRows.length; i++) {
 		contentSection.append(processRow(rawRows[i]));
 	}
+	setHeightForVideos();
 }
 
 function processRow(rowText) {
@@ -73,18 +74,30 @@ function processTitle(rowTab) {
 	return sectionTitle;
 }
 function processImage(rowTab) {
+	var section = document.createElement("section");
+	section.className = "guideImage";
 	var image = document.createElement("img");
-	image.className = "guideImage";
 	image.style.width = rowTab[1];
 	image.style.height = rowTab[2];
 	image.src = rowTab[3];
-	return image;
+	section.append(image);
+	return section;
 }
 function processVideo(rowTab) {
-	var video = document.createElement("video");
-	video.className = "guideImage";
+	var section = document.createElement("section");
+	section.className = "guideVideo";
+	var video = document.createElement("iframe");
 	video.style.width = rowTab[1];
 	video.style.height = rowTab[2];
-	video.src = rowTab[3];
-	return video;
+	video.src = rowTab[3].replace("watch?v=", "embed/");
+	video.allowfullscreen = true;
+	section.append(video);
+	return section;
+}
+function setHeightForVideos() {
+	var videos = document.querySelectorAll(".guideVideo");
+	for (i = 0; i < videos.length; i++) {
+		videos[i].style.height = (videos[i].offsetWidth * 9 / 16) + "px";
+	}
+	
 }
