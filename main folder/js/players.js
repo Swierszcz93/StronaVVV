@@ -3,7 +3,7 @@ var columns = 4;//ile ma byc kolumn w widoku
 // main controller for angular
 var app = angular.module('main', []);
 app.controller('mainCtrl', function($scope, $http, $sce) {
-	$http.get("datafiles/nicki.txt").then(
+	$http.get("datafiles/players.txt").then(
 			function(response) {
 				$scope.columns = columns;
 				var rawNicknames = response.data.split('\n');
