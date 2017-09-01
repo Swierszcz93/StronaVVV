@@ -203,9 +203,12 @@ a:hover {
 	margin: 0 auto;
 	background: #ffffff;
 }
-.guideTable td {
+.guideTable td, .guideTable th {
 	border: 2px solid #0088ff;
 	padding: 2px 5px 2px 5px;
+}
+.guideTable th {
+	background: #33bbff
 }
 .guideAuthor{
 	text-align: right;

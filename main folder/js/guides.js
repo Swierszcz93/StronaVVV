@@ -116,7 +116,17 @@ function processVideo(rowTab) {
 function processTable(rowTab) {
 	var table = document.createElement("table");
 	table.className = "guideTable";
-	for(var i=1;i<rowTab.length;i++){
+	
+	var tableHeader = document.createElement("tr");
+	var tableCells = rowTab[1].split("|");
+	for(var j=0;j<tableCells.length;j++){
+		var td = document.createElement("th");
+		td.innerHTML = tableCells[j];
+		tableHeader.append(td);
+	}
+	table.append(tableHeader);
+	
+	for(var i=2;i<rowTab.length;i++){
 		var tableRow = document.createElement("tr");
 		var tableCells = rowTab[i].split("|");
 		for(var j=0;j<tableCells.length;j++){
