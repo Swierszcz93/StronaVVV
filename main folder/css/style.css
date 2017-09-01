@@ -175,14 +175,14 @@ a:hover {
 }
 
 .guideTitle {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 .guideSectionTitle {
 	margin-top: 30px;
 	padding: 10px;
 	text-align: left;
-	font-size: 2em;
+	font-size: 1.5em;
 	width: 100%;
 	background: white;
 }
