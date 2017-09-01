@@ -54,6 +54,8 @@ function processRow(rowText) {
 		return processSectionTitle(rowTab);
 	case 'text':
 		return processText(rowTab);
+	case 'table':
+		return processTable(rowTab);
 	case 'img':
 		return processImage(rowTab);
 	case 'video':
@@ -109,6 +111,22 @@ function processVideo(rowTab) {
 	video.allowfullscreen = true;
 	section.append(video);
 	return section;
+}
+//table;kol1|kol2|kol3;kol1|kol2|kol3
+function processTable(rowTab) {
+	var table = document.createElement("table");
+	table.className = "guideTable";
+	for(var i=1;i<rowTab.length;i++){
+		var tableRow = document.createElement("tr");
+		var tableCells = rowTab[i].split("|");
+		for(var j=0;j<tableCells.length;j++){
+			var td = document.createElement("td");
+			td.innerHTML = tableCells[j];
+			tableRow.append(td);
+		}
+		table.append(tableRow);
+	}
+	return table;
 }
 function setHeightForVideos() {
 	var videos = document.querySelectorAll(".guideVideo");

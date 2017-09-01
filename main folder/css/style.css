@@ -149,13 +149,13 @@ a:hover {
 	overflow: auto;
 }
 
-.table-40lvl {
+.table-40lvl{
 	border-collapse: collapse;
 	width: 70%;
 	margin: 0 auto;
 }
 
-.table-40lvl td {
+.table-40lvl td{
 	border: 2px solid #0088ff;
 	padding: 10px;
 }
@@ -198,6 +198,15 @@ a:hover {
 .guideVideo {
 	
 }
+.guideTable {
+	border-collapse: collapse;
+	margin: 0 auto;
+	background: #ffffff;
+}
+.guideTable td {
+	border: 2px solid #0088ff;
+	padding: 2px 5px 2px 5px;
+}
 .guideAuthor{
 	text-align: right;
 	font-style: italic;
@@ -208,6 +217,10 @@ a:hover {
 	body {
 		background-size: 150vw 100vh;
 		background-position: -25vw 0;
+	}
+	.guideImage {
+		max-width: 100%;
+		height: auto;
 	}
 }
 /*media queries for mobile view*/
