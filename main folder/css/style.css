@@ -1,1 +1,264 @@
+<<<<<<< develop
  
+=======
+html {
+	font-family: sans-serif;
+	/* 1 */
+	line-height: 1.15;
+	/* 2 */
+	-ms-text-size-adjust: 100%;
+	/* 3 */
+	-webkit-text-size-adjust: 100%;
+	/* 3 */
+}
+
+/* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers (opinionated).
+     */
+body {
+	margin: 0px;
+	margin-top: 70px;
+	padding: 0px;
+	background-position: 0% 0%;
+	background: url("../images/BANER_clear.png") no-repeat fixed;
+	background-size: 100vw 100vh;
+	font-family: sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #0a0a0a;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: inherit;
+}
+
+.menu-bar {
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: #e6e6e6;
+	width: 100%;
+}
+
+.menu {
+	list-style: none;
+	position: relative;
+	justify-content: center;
+	display: flex;
+}
+
+.menu-item {
+	float: left;
+	margin: 20px 20px 0px 0px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding: 0.7rem 1rem;
+	line-height: 0;
+	font-size: 120%;
+	color: black;
+}
+
+.menu-mobile-icon {
+	display: none;
+	top: 0px;
+	right: 0px;
+	position: fixed;
+	font-size: 250%;
+}
+
+.section {
+	padding: 5vw;
+	background: rgba(255, 255, 255, 0.5);
+	height: auto;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+.title {
+	font-size: 2em;
+}
+
+.title-small {
+	font-size: 1em;
+}
+
+.youtube_video {
+	width: 100%;
+	height: 80vh;
+	opacity: 1;
+	margin-bottom: 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.pokeball, .greatball, .ultraball {
+	margin: 50px auto;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	border: -1px solid transparent;
+	box-shadow: inset -5px -5px 20px 0px #333;
+	background-position: center;
+}
+
+.pokeball {
+	background: url("../images/pokeball_icon.png");
+	background-size: contain;
+}
+
+.greatball {
+	background: url("../images/greatball_icon.png");
+	background-size: contain;
+}
+
+.ultraball {
+	background: url("../images/ultraball_icon.png");
+	background-size: contain;
+}
+
+.contact {
+	color: #fee101;
+}
+
+#contact {
+	border-top: 16px solid #fee101;
+}
+
+.paragraph {
+	color: #000;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+#highlights {
+	border-top: 8px solid #fee101;
+	margin-top: 90vh;
+}
+
+#section-players {
+	overflow: auto;
+}
+
+.table-40lvl{
+	border-collapse: collapse;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.table-40lvl td{
+	border: 2px solid #0088ff;
+	padding: 10px;
+}
+
+.table-players {
+	float: left;
+}
+
+#guidesSelect {
+	width: 100%;
+	align-horizontal: center;
+}
+
+#guideContent {
+	border-top: 8px solid #fee101;
+	margin-top: 50px;
+}
+
+.guideTitle {
+	font-size: 2em;
+}
+
+.guideSectionTitle {
+	margin-top: 30px;
+	padding: 10px;
+	text-align: left;
+	font-size: 1.5em;
+	width: 100%;
+	background: white;
+}
+
+.guideText {
+	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.guideImage {
+	
+}
+
+.guideVideo {
+	
+}
+.guideTable {
+	border-collapse: collapse;
+	margin: 0 auto;
+	background: #ffffff;
+}
+.guideTable td, .guideTable th {
+	border: 2px solid #0088ff;
+	padding: 2px 5px 2px 5px;
+}
+.guideTable th {
+	background: #33bbff;
+}
+.guideAuthor{
+	text-align: right;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+@media screen and (max-width: 1000px) {
+	body {
+		background-size: 150vw 100vh;
+		background-position: -25vw 0;
+	}
+	.guideImage {
+		max-width: 100%;
+		height: auto;
+	}
+}
+/*media queries for mobile view*/
+@media screen and (max-width: 800px) {
+	body {
+		background-size: 200vw 100vh;
+		background-position: -50vw 0;
+	}
+	.section {
+		margin-left: 2vw;
+		margin-right: 2vw;
+	}
+	.title {
+		font-size: 1.5em;
+	}
+	.menu-mobile-icon {
+		float: right;
+		display: block;
+	}
+	.menu li:not(:first-child) {
+		display: none;
+	}
+	.menu.responsive {
+		position: relative;
+		display: block;
+	}
+	.menu.responsive li {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
+>>>>>>> 968c450 minor text fixes xD w poradnikach
