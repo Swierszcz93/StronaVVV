@@ -198,6 +198,11 @@ a:hover {
 .guideVideo {
 	
 }
+.guideAuthor{
+	text-align: right;
+	font-style: italic;
+	font-size: 0.8em;
+}
 
 @media screen and (max-width: 1000px) {
 	body {

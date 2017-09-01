@@ -58,6 +58,8 @@ function processRow(rowText) {
 		return processImage(rowTab);
 	case 'video':
 		return processVideo(rowTab);
+	case 'autor':
+		return processAuthor(rowTab);
 	default:
 		console.log("tag is not recognized: " + rowTab[0]);
 		return null;
@@ -78,6 +80,12 @@ function processTitle(rowTab) {
 function processSectionTitle(rowTab) {
 	var sectionTitle = document.createElement("section");
 	sectionTitle.className = "guideSectionTitle";
+	sectionTitle.innerHTML = rowTab[1];
+	return sectionTitle;
+}
+function processAuthor(rowTab) {
+	var sectionTitle = document.createElement("section");
+	sectionTitle.className = "guideAuthor";
 	sectionTitle.innerHTML = rowTab[1];
 	return sectionTitle;
 }

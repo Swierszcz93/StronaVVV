@@ -11,3 +11,4 @@ stitle;SUICUNE
 text;Każdy pies lubi wodę, a co powiecie na psa wodnego? niby taki Vaporeon, ale jednak ma dużo więcej obrony niż jego bracia, na szczęście jego podatności - Elektryczność oraz Rośliny sprawią, że to zadanie będzie łatwiejsze, gdyż istnieje dużo pokemonów, które mają dobre ataki w tych typach, tabela przedstawia najlepsze pokemony do tego zadania (pokemony mają 39 lvl oraz 15 IV ataku):
 img;;;guides\images\suicune-counters.png
 text;Tutaj zdecydowanie królują pokemony typu Elektrycznego, nie ma co się tutaj rozpisywać, typ roślinny ma zbyt wolne/słabe ataki i słabą statystykę ataku.
+autor;Swierszcz93
