@@ -164,28 +164,60 @@ a:hover {
 	float: left;
 }
 
+#guidesSelect {
+	width: 100%;
+	align-horizontal: center;
+}
+
+#guideContent {
+	border-top: 8px solid #fee101;
+	margin-top: 50px;
+}
+
+.guideTitle {
+	font-size: 3em;
+}
+
+.guideSectionTitle {
+	margin: 0px 20px 0xp 20px;
+	padding: 10px;
+	text-align: left;
+	font-size: 2em;
+	width: 100%;
+	background: white;
+}
+
+.guideText {
+	text-align: justify;
+}
+
+.guideImage {
+	
+}
+
+.guideVideo {
+	
+}
+
 @media screen and (max-width: 1000px) {
-	body{
+	body {
 		background-size: 150vw 100vh;
 		background-position: -25vw 0;
 	}
 }
 /*media queries for mobile view*/
 @media screen and (max-width: 800px) {
-	body{
+	body {
 		background-size: 200vw 100vh;
 		background-position: -50vw 0;
 	}
-
-	.section{
+	.section {
 		margin-left: 2vw;
 		margin-right: 2vw;
-		padding: 2vw;
 	}
-	.table-40lvl {
-		width: 100%;
+	.title {
+		font-size: 1.5em;
 	}
-	.title {font-size: 1.5em;}
 	.menu-mobile-icon {
 		float: right;
 		display: block;
@@ -201,10 +233,5 @@ a:hover {
 		float: none;
 		display: block;
 		text-align: left;
-	}
-}
-@media screen and (max-width: 580px) {
-	#players-table{
-		margin-left: 30vw;
 	}
 }
