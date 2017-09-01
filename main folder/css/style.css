@@ -189,6 +189,8 @@ a:hover {
 
 .guideText {
 	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .guideImage {
