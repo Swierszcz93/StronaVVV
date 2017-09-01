@@ -171,16 +171,22 @@ a:hover {
 #guideContent {
 	border-top: 8px solid #fee101;
 	margin-top: 50px;
-	text-align: center;
+	
 }
 .guideTitle{
+	font-size: 3em;
+}
+.guideSectionTitle{
+	margin: 20px;
+	text-align: left;
 	font-size: 2em;
+	width: 100%;
+	background: white;
 }
 .guideText{
-	
+	text-align: justify;
 }
 .guideImage{
-	
 }
 .guideVideo{
 	

@@ -50,6 +50,8 @@ function processRow(rowText) {
 	switch (rowTab[0]) {
 	case 'title':
 		return processTitle(rowTab);
+	case 'stitle':
+		return processSectionTitle(rowTab);
 	case 'text':
 		return processText(rowTab);
 	case 'img':
@@ -70,6 +72,12 @@ function processText(rowTab) {
 function processTitle(rowTab) {
 	var sectionTitle = document.createElement("section");
 	sectionTitle.className = "guideTitle";
+	sectionTitle.innerHTML = rowTab[1];
+	return sectionTitle;
+}
+function processSectionTitle(rowTab) {
+	var sectionTitle = document.createElement("section");
+	sectionTitle.className = "guideSectionTitle";
 	sectionTitle.innerHTML = rowTab[1];
 	return sectionTitle;
 }

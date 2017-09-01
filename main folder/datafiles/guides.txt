@@ -1,3 +1,1 @@
-Jak łapać legendy?;legends-catching.txt
-Tabele min-max CP raidbossów;raidbosses-cp.txt
-Test;test-1.txt
+Czym walczyć z legendarnymi psami;legendary-2gen.txt
