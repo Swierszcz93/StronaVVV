@@ -13,8 +13,13 @@ datafiles/movies - plik z którego tworzą się filmy na stronie, wzór:
 [nazwa filmu];[autor];[link do YT]
 datafiles/nicki.txt - plik z nickami graczy, wzór
 [nick]
+datafiles/[guides|resources].txt - plik z zasobami do poradnikow i materialow, konwencja
+nazwa_poradnika/zasobu;plik_z_zasobem.txt
 
+katalog guides oraz resources sa  blizniaczopodobne i maja te same zasady contentu plikow
+roznice tworza pliki resources.txt oraz guides.txt w katalogu datafiles
 guides - katalog z którego będą pobieranie poradniki
+guides/images - katlog na obrazki do poradnikow
 guides/sites - pliki txt z contentem, dopuszczalne tagi
 title - tytul na normalnym tle, duze litery
 stitle - tytul sekcji, na bialym tle, mniejsze litery
