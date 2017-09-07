@@ -29,16 +29,17 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.menu a {
+a {
 	text-decoration: none;
 	color: inherit;
 }
 
-.menu a:hover {
+a:hover {
 	text-decoration: underline;
-	color: inherit;
 }
-
+#footer a{
+	color: #0088ff;
+}
 .menu-bar {
 	z-index: 1000;
 	top: 0;
@@ -62,7 +63,6 @@ body {
 	padding-bottom: 0;
 	padding: 0.7rem 1rem;
 	line-height: 0;
-	font-size: 120%;
 	color: black;
 }
 
