@@ -164,7 +164,7 @@ body {
 	float: left;
 }
 #footer{
-	width: 100vw;
+	width: 100%;
 	background-color: #e6e6e6;
 	padding: 20px 10vw 20px 10vw;
 }
@@ -177,6 +177,7 @@ body {
 #guideContent {
 	border-top: 8px solid #fee101;
 	margin-top: 50px;
+	min-height: 55vh;
 }
 
 .guideTitle {
