@@ -221,6 +221,7 @@ a:hover {
 .resourcesTable td, .resourcesTable th {
 	border: 2px solid #0088ff;
 	padding: 2px 5px 2px 5px;
+	text-align: center;
 }
 
 .resourcesTable th {
