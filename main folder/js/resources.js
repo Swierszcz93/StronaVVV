@@ -4,10 +4,10 @@ var resourcessPath = "/../resources/sites/";
 var app = angular.module('main', []);
 app.controller('mainCtrl', function($scope, $http, $sce) {
 	$http.get("datafiles/resources.txt").then(function(response) {
-		var rawresourcessTable = response.data.split('\n');
+		var rawResourcesTable = response.data.split('\n');
 		$scope.resourcesTable = [];
-		for (var i = 0; i < rawresourcessTable.length; i++) {
-			$scope.resourcesTable.push(rawresourcessTable[i].split(';'));
+		for (var i = 0; i < rawResourcesTable.length; i++) {
+			$scope.resourcesTable.push(rawResourcesTable[i].split(';'));
 		}
 	});
 });
