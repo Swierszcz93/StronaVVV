@@ -1,4 +1,5 @@
-Tabela IV Mewtwo;table-mewtwo.txt
-Tabela IV Entei;table-entei.txt
-Tabela IV Raikou;table-raikou.txt
-Tabela IV Suicune;table-suicune.txt
+Tabela - IV Mewtwo;table-mewtwo.txt
+Tabela - IV Entei;table-entei.txt
+Tabela - IV Raikou;table-raikou.txt
+Tabela - IV Suicune;table-suicune.txt
+Tabela - Maksymalne CP bossów raidowych;table-raid-max-cp.txt
