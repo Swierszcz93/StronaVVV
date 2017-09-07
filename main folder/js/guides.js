@@ -112,36 +112,38 @@ function processVideo(rowTab) {
 	section.append(video);
 	return section;
 }
-//table;kol1|kol2|kol3;kol1|kol2|kol3
+// table;kol1|kol2|kol3;kol1|kol2|kol3
 function processTable(rowTab) {
 	var table = document.createElement("table");
 	table.className = "resourcesTable";
-	
-	var tableHeader = document.createElement("tr");
-	var tableCells = rowTab[1].split("|");
-	for(var j=0;j<tableCells.length;j++){
-		var td = document.createElement("th");
-		td.innerHTML = tableCells[j];
-		tableHeader.append(td);
-	}
-	table.append(tableHeader);
-	
-	for(var i=2;i<rowTab.length;i++){
+
+	for (var i = 1; i < rowTab.length; i++) {
 		var tableRow = document.createElement("tr");
 		var tableCells = rowTab[i].split("|");
-		for(var j=0;j<tableCells.length;j++){
-			var td = document.createElement("td");
-			td.innerHTML = tableCells[j];
-			tableRow.append(td);
+		for (var j = 0; j < tableCells.length; j++) {
+			tableRow.append(processSingleCell(tableCells[j],document.createElement("td")));
 		}
 		table.append(tableRow);
 	}
 	return table;
+}
+//args 0-th|td,1-colspan
+function processSingleCell(cell,td) {
+	
+	if (cell.startsWith("<")) {
+		var indexEnd = cell.indexOf(">");
+		var args = cell.substring(1, indexEnd).split(",");
+		td = document.createElement(args[0]);
+		td.setAttribute("colspan",args[1]);
+		cell = cell.substring(indexEnd + 1);
+	}
+	td.innerHTML = cell;
+	return td;
 }
 function setHeightForVideos() {
 	var videos = document.querySelectorAll(".resourcesVideo");
 	for (i = 0; i < videos.length; i++) {
 		videos[i].style.height = (videos[i].offsetWidth * 9 / 16) + "px";
 	}
-	
+
 }
