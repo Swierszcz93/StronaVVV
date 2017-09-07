@@ -27,6 +27,7 @@ body {
 	color: #0a0a0a;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	min-height: 100vh;
 }
 
 a {
@@ -37,9 +38,11 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-#footer a{
+
+#footer a {
 	color: #0088ff;
 }
+
 .menu-bar {
 	z-index: 1000;
 	top: 0;
@@ -149,13 +152,13 @@ a:hover {
 	overflow: auto;
 }
 
-.table-40lvl{
+.table-40lvl {
 	border-collapse: collapse;
 	width: 70%;
 	margin: 0 auto;
 }
 
-.table-40lvl td{
+.table-40lvl td {
 	border: 2px solid #0088ff;
 	padding: 10px;
 }
@@ -163,10 +166,12 @@ a:hover {
 .table-players {
 	float: left;
 }
-#footer{
+
+#footer {
 	width: 100%;
 	background-color: #e6e6e6;
 	padding: 20px 10vw 20px 10vw;
+	align: bottom;
 }
 
 #resourcesSelect {
@@ -206,19 +211,23 @@ a:hover {
 .resourcesVideo {
 	
 }
+
 .resourcesTable {
 	border-collapse: collapse;
 	margin: 0 auto;
 	background: #ffffff;
 }
+
 .resourcesTable td, .resourcesTable th {
 	border: 2px solid #0088ff;
 	padding: 2px 5px 2px 5px;
 }
+
 .resourcesTable th {
 	background: #33bbff;
 }
-.resourcesAuthor{
+
+.resourcesAuthor {
 	text-align: right;
 	font-style: italic;
 	font-size: 0.8em;
