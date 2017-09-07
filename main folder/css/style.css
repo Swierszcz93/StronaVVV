@@ -161,6 +161,7 @@ a:hover {
 }
 
 .table-players {
+	float: left;
 }
 
 #guidesSelect {
