@@ -169,22 +169,22 @@ body {
 	padding: 20px 10vw 20px 10vw;
 }
 
-#guidesSelect {
+#resourcesSelect {
 	width: 100%;
 	align-horizontal: center;
 }
 
-#guideContent {
+#resourcesContent {
 	border-top: 8px solid #fee101;
 	margin-top: 50px;
 	min-height: 55vh;
 }
 
-.guideTitle {
+.resourcesTitle {
 	font-size: 2em;
 }
 
-.guideSectionTitle {
+.resourcesSectionTitle {
 	margin-top: 30px;
 	padding: 10px;
 	text-align: left;
@@ -193,32 +193,32 @@ body {
 	background: white;
 }
 
-.guideText {
+.resourcesText {
 	text-align: justify;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-.guideImage {
+.resourcesImage {
 	
 }
 
-.guideVideo {
+.resourcesVideo {
 	
 }
-.guideTable {
+.resourcesTable {
 	border-collapse: collapse;
 	margin: 0 auto;
 	background: #ffffff;
 }
-.guideTable td, .guideTable th {
+.resourcesTable td, .resourcesTable th {
 	border: 2px solid #0088ff;
 	padding: 2px 5px 2px 5px;
 }
-.guideTable th {
+.resourcesTable th {
 	background: #33bbff;
 }
-.guideAuthor{
+.resourcesAuthor{
 	text-align: right;
 	font-style: italic;
 	font-size: 0.8em;
@@ -229,7 +229,7 @@ body {
 		background-size: 150vw 100vh;
 		background-position: -25vw 0;
 	}
-	.guideImage {
+	.resourcesImage {
 		max-width: 100%;
 		height: auto;
 	}

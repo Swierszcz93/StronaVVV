@@ -21,17 +21,17 @@
 </head>
 <body ng-app="main" ng-controller="mainCtrl">
 	<section ng-include="'components/menu.html'"></section>
-	<section id="guidesTable" class="section text-center">
+	<section id="resourcesTable" class="section text-center">
 	<h3 class="title">Przydatne materiały</h3>
-		<select id="guidesSelect" onchange="loadSelectedGuide()">
+		<select id="resourcesSelect" onchange="loadSelectedResources()">
 			<option value="" disabled selected>Wybierz poradnik, który Cię interesuje</option>
-			<option ng-repeat="guide in guidesTable" value="{{guide[1]}}">{{guide[0]}}</option>
+			<option ng-repeat="guide in resourcesTable" value="{{guide[1]}}">{{guide[0]}}</option>
 		</select>
-		<section id="guideContent"></section>
+		<section id="resourcesContent"></section>
 	</section>
 	<section ng-include="'components/footer.html'"></section>
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-	<script src="js/guides.js"></script>
+	<script src="js/resources.js"></script>
 </body>
 </html>

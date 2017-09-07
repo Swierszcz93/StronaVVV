@@ -1,18 +1,18 @@
-var mainDivId = "guideContent";
-var guidesPath = "/../guides/sites/";
+var mainDivId = "resourcesContent";
+var resourcessPath = "/../resources/sites/";
 // main controller for angular
 var app = angular.module('main', []);
 app.controller('mainCtrl', function($scope, $http, $sce) {
-	$http.get("datafiles/guides.txt").then(function(response) {
-		var rawGuidesTable = response.data.split('\n');
-		$scope.guidesTable = [];
-		for (var i = 0; i < rawGuidesTable.length; i++) {
-			$scope.guidesTable.push(rawGuidesTable[i].split(';'));
+	$http.get("datafiles/resources.txt").then(function(response) {
+		var rawresourcessTable = response.data.split('\n');
+		$scope.resourcesTable = [];
+		for (var i = 0; i < rawresourcessTable.length; i++) {
+			$scope.resourcesTable.push(rawresourcessTable[i].split(';'));
 		}
 	});
 });
 
-function loadSelectedGuide() {
+function loadSelectedResources() {
 	removePreviousContent();
 	fillWithNewContent();
 }
@@ -22,17 +22,17 @@ function removePreviousContent() {
 }
 
 function fillWithNewContent() {
-	getFileContent($("#guidesSelect").val(), prepareNewContent);
+	getFileContent($("#resourcesSelect").val(), prepareNewContent);
 }
 
 function getFileContent(fileName, callback) {
-	console.log(document.URL + guidesPath + fileName);
+	console.log(document.URL + resourcessPath + fileName);
 	var xmlHttp = new XMLHttpRequest();
 	xmlHttp.onreadystatechange = function() {
 		if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
 			callback(xmlHttp.responseText);
 	}
-	xmlHttp.open("GET", document.URL + guidesPath + fileName, true);
+	xmlHttp.open("GET", document.URL + resourcessPath + fileName, true);
 	xmlHttp.send(null);
 }
 
@@ -69,31 +69,31 @@ function processRow(rowText) {
 }
 function processText(rowTab) {
 	var sectionText = document.createElement("section");
-	sectionText.className = "guideText";
+	sectionText.className = "resourcesText";
 	sectionText.innerHTML = rowTab[1];
 	return sectionText;
 }
 function processTitle(rowTab) {
 	var sectionTitle = document.createElement("section");
-	sectionTitle.className = "guideTitle";
+	sectionTitle.className = "resourcesTitle";
 	sectionTitle.innerHTML = rowTab[1];
 	return sectionTitle;
 }
 function processSectionTitle(rowTab) {
 	var sectionTitle = document.createElement("section");
-	sectionTitle.className = "guideSectionTitle";
+	sectionTitle.className = "resourcesSectionTitle";
 	sectionTitle.innerHTML = rowTab[1];
 	return sectionTitle;
 }
 function processAuthor(rowTab) {
 	var sectionTitle = document.createElement("section");
-	sectionTitle.className = "guideAuthor";
+	sectionTitle.className = "resourcesAuthor";
 	sectionTitle.innerHTML = rowTab[1];
 	return sectionTitle;
 }
 function processImage(rowTab) {
 	var section = document.createElement("section");
-	section.className = "guideImage";
+	section.className = "resourcesImage";
 	var image = document.createElement("img");
 	image.style.width = rowTab[1];
 	image.style.height = rowTab[2];
@@ -103,7 +103,7 @@ function processImage(rowTab) {
 }
 function processVideo(rowTab) {
 	var section = document.createElement("section");
-	section.className = "guideVideo";
+	section.className = "resourcesVideo";
 	var video = document.createElement("iframe");
 	video.style.width = rowTab[1];
 	video.style.height = rowTab[2];
@@ -115,7 +115,7 @@ function processVideo(rowTab) {
 //table;kol1|kol2|kol3;kol1|kol2|kol3
 function processTable(rowTab) {
 	var table = document.createElement("table");
-	table.className = "guideTable";
+	table.className = "resourcesTable";
 	
 	var tableHeader = document.createElement("tr");
 	var tableCells = rowTab[1].split("|");
@@ -139,7 +139,7 @@ function processTable(rowTab) {
 	return table;
 }
 function setHeightForVideos() {
-	var videos = document.querySelectorAll(".guideVideo");
+	var videos = document.querySelectorAll(".resourcesVideo");
 	for (i = 0; i < videos.length; i++) {
 		videos[i].style.height = (videos[i].offsetWidth * 9 / 16) + "px";
 	}
