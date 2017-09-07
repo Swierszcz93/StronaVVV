@@ -27,7 +27,6 @@ body {
 	color: #0a0a0a;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	min-height: 100vh;
 }
 
 a {
@@ -172,6 +171,10 @@ a:hover {
 	background-color: #e6e6e6;
 	padding: 20px 10vw 20px 10vw;
 	align: bottom;
+	margin-top: 5px;
+}
+#section40lvl {
+	min-height: 90vh;
 }
 
 #resourcesSelect {
