@@ -25,8 +25,8 @@
 	<section id="resourcesTable" class="section text-center">
 		<h3 class="title">Przydatne materiały</h3>
 		<select id="resourcesSelect" onchange="loadSelectedResources()">
+			<option value="" selected disabled hidden>Wybierz to, co Cię interesuje</option>
 			<option ng-repeat="guide in resourcesTable" value="{{guide[1]}}">{{guide[0]}}</option>
-			<option value="" disabled selected></option>
 		</select>
 		<section id="resourcesContent"></section>
 	</section>
