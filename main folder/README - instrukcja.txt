@@ -15,7 +15,21 @@ datafiles/nicki.txt - plik z nickami graczy, wzór
 [nick]
 
 guides - katalog z którego będą pobieranie poradniki
-UZUPEŁNIĆ
+guides/sites - pliki txt z contentem, dopuszczalne tagi
+title - tytul na normalnym tle, duze litery
+stitle - tytul sekcji, na bialym tle, mniejsze litery
+text - zwykly tekst
+
+table - tabelka z contentem, przyklad, konwencja:
+table;[<th|td,number>]cell_content|cell_content;cell_content|cell_content
+
+img - obrazek, konwencja:
+img;[width];[height];image_source
+
+video - filmik z YT, konwencja:
+video;[width];[height];video_link
+
+author - maly tekst po prawej napisany kursywa
 
 images - katalog na obrazki używane na stronie
 
