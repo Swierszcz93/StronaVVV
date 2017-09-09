@@ -128,13 +128,17 @@ function processTable(rowTab) {
 	return table;
 }
 //args 0-th|td,1-colspan
-function processSingleCell(cell,td) {
-	
+function processSingleCell(cell, td) {
+
 	if (cell.startsWith("<")) {
 		var indexEnd = cell.indexOf(">");
 		var args = cell.substring(1, indexEnd).split(",");
-		td = document.createElement(args[0]);
-		td.setAttribute("colspan",args[1]);
+		if (args.length > 0) {
+			td = document.createElement(args[0]);
+		}
+		if (args.length > 1) {
+			td.setAttribute("colspan", args[1]);
+		}
 		cell = cell.substring(indexEnd + 1);
 	}
 	td.innerHTML = cell;
