@@ -1,14 +1,17 @@
 title;Czym walczyć z legendarnymi psami
 stitle;ENTEI
+img;80%;;guides/images/entei.png
 text;Płonący pieseł - Entei będzie dość łatwym przeciwnikiem, ze względu na niewielką wartość obrony i podatność na 3 typy ataków: Ziemię, Skałę oraz Wodę. Oto tabelka z podanymi counterami, oraz maksymalnym DPS jaki są w stanie mu zrobić (pokemony są na 39 lvlu z Atak IV 15):
 table;<th,1>Pokemon (ataki)|<th,1>Obrażenia/sek;Omastar (Rock throw/ Hydro pump)|18,274;Golem (Rock Throw/Stone Edge)|17,658;Dragonite (Dragon Tail/Outrage)|17,143;Gengar (Shadow Claw/Shadow Ball)|17,097;Omastar (Water gun/ Hydro pump)|17,068;Vaporeon (Water gun/ Hydro pump)|16,917;Alakazam (Confusion/Future sight)|16,835;Rhydon (Mud slap/Earthquake)|16,605;Tyranitar (Bite/Stone Edge)|16,351;Gyarados (Dragon Tail/Hydro pump)|16
 text;Jak widać Omastar z legacy atakami jest dalej bardzo dobrym pokemonem. Jeśli ktoś zainwestował w Golemy przed eventem z legendarnymi ptakami są one dalej w cenie. Przez to, że Entei posiada tylko pojedyncze słabości, Dragonite oraz Gengar z dobrymi atakami również są dobrymi kontrami do bicia, gdyż posiadają wysoką statystykę ataku. Omastar oraz Vaporeon z wodnymi atakami cały czas cierpią na brak dobrych statystyk ataku, pomimo iż mają świetne ataki.
 stitle;RAIKOU
+img;80%;;guides/images/raikou.png
 text;Z psem kopiącym prądem przeprawa będzie nieco cięższa, bo posiada większą wartość obrony oraz jest podatny tylko na obrażenia od Ziemi. Niestety ataki tego typu nie są najmocniejszymi w grze, dlatego trzeba będzie się posiłkować innymi. Tabelka przedstawia najlepsze countery (pokemony lvl 39, Atak IV 15):
 table;<th,1>Pokemon (ataki)|<th,1>Obrażenia/sek;Gengar (Shadow Claw/Shadow Ball)|14,731;Alakazam (Confusion/Future sight)|14,604;Dragonite (Dragon Tail/Outrage)|14,571;Rhydon (Mud slap/Earthquake)|14,321;Moltres (Fire spin/Overheat)|13,851;Golem (Mud slap/Earthquake)|13,457;Entei(Fire fang/Overheat)|13,376;Tyranitar (Bite/Stone Edge)|13,243
 text;Jak widać powyżej, mimo iż Raikou ma podatność na Ziemię to tego typu ataki wyrządzają mu niewiele szkód, ze względu na niskie obrażenia względem czasu, a wysoka wartość obrony nie ułatwia tego zadania. Największe obrażenia powodują Alakazam oraz Gengar, niestety są one bardzo mało wytrzymałe. Dobrym wyborem w tym wypadku będą Dragonite’y oraz Rhydony, jeśli ktoś chce zmieniać ataki na Golemach na ziemne też będzie to miało pewien profit.
 stitle;SUICUNE
+img;80%;;guides/images/suicune.png
 text;Każdy pies lubi wodę, a co powiecie na psa wodnego? Niby taki Vaporeon, ale jednak ma dużo więcej obrony niż jego bracia, na szczęście jego podatności - Elektryczność oraz Rośliny sprawią, że to zadanie będzie łatwiejsze, gdyż istnieje dużo pokemonów, które mają dobre ataki w tych typach, tabela przedstawia najlepsze pokemony do tego zadania (pokemony mają 39 lvl oraz 15 IV ataku):
 table;<th,1>Pokemon (ataki)|<th,1>Obrażenia/sek;Raikou (Thunder shock/Wild charge)|16,471;Zapdos(Charge beam/Zap cannon)|15,965;Jolteon (Thunder Shock/Thunderbolt)|15,075;Exeggutor (Bullet seed/Solar beam)|14,964
 text;Tutaj zdecydowanie królują pokemony typu Elektrycznego, nie ma co się tutaj rozpisywać, typ roślinny ma zbyt wolne/słabe ataki i słabą statystykę ataku.
-autor;autor: VVVswierszcz93
+autor;autor: VVVswierszcz93, obrazki: Smeril
