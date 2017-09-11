@@ -14,4 +14,4 @@ img;50%;;guides/images/suicune.png
 text;Każdy pies lubi wodę, a co powiecie na psa wodnego? Niby taki Vaporeon, ale jednak ma dużo więcej obrony niż jego bracia, na szczęście jego podatności - Elektryczność oraz Rośliny sprawią, że to zadanie będzie łatwiejsze, gdyż istnieje dużo pokemonów, które mają dobre ataki w tych typach, tabela przedstawia najlepsze pokemony do tego zadania (pokemony mają 39 lvl oraz 15 IV ataku):
 table;<th,1>Pokemon (ataki)|<th,1>Obrażenia/sek;Raikou (Thunder shock/Wild charge)|16,471;Zapdos(Charge beam/Zap cannon)|15,965;Jolteon (Thunder Shock/Thunderbolt)|15,075;Exeggutor (Bullet seed/Solar beam)|14,964
 text;Tutaj zdecydowanie królują pokemony typu Elektrycznego, nie ma co się tutaj rozpisywać, typ roślinny ma zbyt wolne/słabe ataki i słabą statystykę ataku.
-autor;autor: VVVswierszcz93, obrazki: Smeril
+autor;autor: VVVswierszcz93, grafiki: Smeril
