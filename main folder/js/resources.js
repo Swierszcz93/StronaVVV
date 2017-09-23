@@ -69,31 +69,31 @@ function processRow(rowText) {
 }
 function processText(rowTab) {
 	var sectionText = document.createElement("section");
-	sectionText.className = "resourcesText";
+	sectionText.className = "resourcesText "+rowTab[2];
 	sectionText.innerHTML = rowTab[1];
 	return sectionText;
 }
 function processTitle(rowTab) {
 	var sectionTitle = document.createElement("section");
-	sectionTitle.className = "resourcesTitle";
+	sectionTitle.className = "resourcesTitle "+rowTab[2];
 	sectionTitle.innerHTML = rowTab[1];
 	return sectionTitle;
 }
 function processSectionTitle(rowTab) {
 	var sectionTitle = document.createElement("section");
-	sectionTitle.className = "resourcesSectionTitle";
+	sectionTitle.className = "resourcesSectionTitle "+rowTab[2];
 	sectionTitle.innerHTML = rowTab[1];
 	return sectionTitle;
 }
 function processAuthor(rowTab) {
 	var sectionTitle = document.createElement("section");
-	sectionTitle.className = "resourcesAuthor";
+	sectionTitle.className = "resourcesAuthor "+rowTab[2];
 	sectionTitle.innerHTML = rowTab[1];
 	return sectionTitle;
 }
 function processImage(rowTab) {
 	var section = document.createElement("section");
-	section.className = "resourcesImage";
+	section.className = "resourcesImage "+rowTab[4];
 	var image = document.createElement("img");
 	image.style.width = rowTab[1];
 	image.style.height = rowTab[2];
@@ -103,7 +103,7 @@ function processImage(rowTab) {
 }
 function processVideo(rowTab) {
 	var section = document.createElement("section");
-	section.className = "resourcesVideo";
+	section.className = "resourcesVideo "+rowTab[4];
 	var video = document.createElement("iframe");
 	video.style.width = rowTab[1];
 	video.style.height = rowTab[2];
