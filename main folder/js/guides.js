@@ -118,7 +118,7 @@ function processTable(rowTab) {
 	var table = document.createElement("table");
 	table.className = "resourcesTable";
 
-	for (var i = 1; i < rowTab.length; i++) {
+	for (var i = 1; i < rowTab.length-1; i++) {
 		var tableRow = document.createElement("tr");
 		var tableCells = rowTab[i].split("|");
 		for (var j = 0; j < tableCells.length; j++) {
