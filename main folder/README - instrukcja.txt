@@ -11,7 +11,7 @@ datafiles/40lvl.txt - plik z którego tworzy się tabelka, wzór:
 [nick];[data]
 datafiles/movies - plik z którego tworzą się filmy na stronie, wzór:
 [nazwa filmu];[autor];[link do YT]
-datafiles/nicki.txt - plik z nickami graczy, wzór
+datafiles/nicki.txt - plik z nickami graczy, wzór jednej linii
 [nick]
 datafiles/[guides|resources].txt - plik z zasobami do poradnikow i materialow, konwencja
 nazwa_poradnika/zasobu;plik_z_zasobem.txt
@@ -24,6 +24,7 @@ guides/sites - pliki txt z contentem, dopuszczalne tagi
 title - tytul na normalnym tle, duze litery
 stitle - tytul sekcji, na bialym tle, mniejsze litery
 text - zwykly tekst
+KAŻDY tag oprócz tabeli na samym końcu może mieć dodany dodatkowy średnik i po nim wpisane dodatkowe klasy CSSowe
 
 table - tabelka z contentem, przyklad, konwencja:
 table;[<th|td,number>]cell_content|cell_content;cell_content|cell_content
