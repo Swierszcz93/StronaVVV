@@ -1,0 +1,35 @@
+title;Poradnik skutecznego schwytania Pokemona
+stitle;Jak gra wybiera czy Pokémon wydostanie się z naszego Pokeballa?
+text;Mechanika gry Pokémon GO opiera się na wzorach i algorytmach. Niestety i tym razem nie obędzie się bez matematyki - dziś będziemy obliczać całkę.. prawdopodobieństwo.. tzn. szansę złapania Pokémona. Przy każdym rzucie losowana jest nowa liczba, jeżeli będzie ona mniejsza od naszych wyliczeń to Pokémon trafi do naszego plecaka. Więc mamy taki wzór:
+img;50%;;guides/images/catching/equation.png
+text;Obliczając: 
+text; - dla raid bossów CPM = 0,5974, ponieważ wszystkie mają 20 lvl
+text; - wartość BCR odnosi się do gatunku Pokémona (Magikarp 70%, Tyranitar 5%, Entei 2%,...)
+text;Zmienne (wymnażamy razem ich wartości):    
+text; - rodzaj użytej kuli (Premierball = Pokéball = 1, Greatball =1.5, Ultraball = 2)
+text; - podkręcenie (prawidłowo podkręcona = 1.7, brak podkręcenia lub błąd = 1)
+text; - rodzaj malinki (zwykła malina = 1.5, złota malina = 2.5)
+text; - bonus za celność (brak celności = 1, nice = 1 do 1.3, great = 1.3 do 1.7, excellent = 1.7 do 2)
+text; - medale za typ Pokémona (brąz = 1.1, srebro = 1.2, złoto = 1.3)*
+text; * Dla dwóch medali obliczamy sumę ich wartości i liczymy średnią.
+title;
+text;Zakładając, że mamy wymagane złote medale za typ Pokémona oraz biorąc tylko dolną granicę punktową bonusów za celność - legendarnego psa Enteia (z wartością BCR = 0.02) złapiemy mając następujące szanse:
+img;80%;;guides/images/catching/table.png
+text; - Każdy ball jest bardzo ważny, ponieważ musimy próbować tak długo, aż gra nie wylosuje nam niższej liczby od naszego wyniku;
+text; - Nawet przy perfekcyjnym rzucie (najmniejszy curve excellent ze złotą maliną) mamy jedynie     około 17% szansy na pochwycenie Enteia co przy 14 rzutach daje nam około 8% szansy, że     mimo wszystko ucieknie;
+text; - Jesteśmy w stanie zwiększyć nasze szanse ponad 8-krotnie.
+stitle;Porady i tricki
+text;“Mały Greatball” da nam większą szansę na złapanie niż duży - warto celować w jak najmniejsze kółko w jakie tylko umiemy trafić;resourcesMarginBottom
+text;Podkręcanie jest bardzo ważne, lepiej jest podkręcić i nie trafić bonusu niż trafić great prostym rzutem;resourcesMarginBottom
+text;Czekanie na atak - aby nie marnować cennych premier balli należy rzucać w czasie animacji ataku bossa, tak aby został trafiony natychmiast po jej zakończeniu (istnieje około 0,5 sekundowe okienko czasowe, w którym Pokémon nie może wykonać kolejnej akcji i jest “bezbronny”).;resourcesMarginBottom
+text;Circle lock
+text;Jest to poniekąd rozszerzenie poprzedniej metody, dzięki niej możemy ustawić sobie kółko na taki rozmiar jaki odpowiada naszym umiejętnościom i mieć pewność że takie zostanie. Jak to zrobić?
+text; 1. Przytrzymujemy kulę na dole ekranu do momentu aż kółko osiągnie satysfakcjonujący nas rozmiar i puszczamy (zostawiamy na miejscu, nie rzucamy).
+text; 2. zekamy na animację ataku (nie skoku) Pokémona.
+text; 3. Kiedy rozpocznie się atak łapiemy balla i wyrzucamy go przed zakończeniem ruchu Pokémona (bardzo ważnym jest, żeby złapać kulę po rozpoczęciu animacji i wypuścić ją przed jej zakończeniem).
+text;Jeżeli wszystko zrobiliśmy tak jak w opisie powyżej, koło powinno zostać w takiej pozycji, w jakiej wcześniej je ustawiliśmy;
+text;Jeśli Pokémon wyskoczy z Pokéballa, nie trzeba ponownie ustawiać koła (zostanie takie jak wcześniej), od razu przechodzimy do punktu drugiego.;resourcesMarginBottom
+text;Curve ball bug - w grze obecnie występuje błąd, przez który bonus za curve balla nie jest naliczany. W dalszym ciągu nie jest znana dokładna przyczyna, ale z prowadzonych testów wynika, iż istnieje strefa, po trafieniu której pomimo podkręcenia nie dostaniemy premii. Może to także tłumaczyć, dlaczego części graczy wydaje się, że łatwiej złapać greatem niż excellentem (im mniejsze kółko tym prościej o przypadkowe trafienie w "czerwoną strefę" i nie otrzymanie premii za podkręcenie, gdzie curve great daje nam większą szansę na złapanie niż prosty excellent).
+img;50%;;guides/images/catching/curveball-bug.png
+autor;autor: VVVShyvro, korekta: VVVTimon011
+

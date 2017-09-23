@@ -1,2 +1,3 @@
 Czym bić legendarne psy?;legendary-2gen.txt
 Wyszukiwanie w pokestorage;pokestorage-search.txt
+Poradnik skutecznego schwytania Pokemona;catching-pokemon.txt
