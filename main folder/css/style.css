@@ -178,74 +178,10 @@ a:hover {
 	min-height: 90vh;
 }
 
-#resourcesSelect {
-	width: 100%;
-	align-horizontal: center;
-}
-
-#resourcesContent {
-	border-top: 8px solid #fee101;
-	margin-top: 50px;
-	min-height: 55vh;
-}
-
-.resourcesTitle {
-	font-size: 2em;
-}
-
-.resourcesSectionTitle {
-	margin-top: 30px;
-	padding: 10px;
-	text-align: left;
-	font-size: 1.5em;
-	width: 100%;
-	background: white;
-}
-
-.resourcesText {
-	text-align: justify;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.resourcesImage {
-	
-}
-
-.resourcesVideo {
-	
-}
-
-.resourcesTable {
-	border-collapse: collapse;
-	margin: 0 auto;
-	background: #ffffff;
-}
-
-.resourcesTable td, .resourcesTable th {
-	border: 2px solid #0088ff;
-	padding: 2px 5px 2px 5px;
-	text-align: center;
-}
-
-.resourcesTable th {
-	background: #33bbff;
-}
-
-.resourcesAuthor {
-	text-align: right;
-	font-style: italic;
-	font-size: 0.8em;
-}
-
 @media screen and (max-width: 1000px) {
 	body {
 		background-size: 150vw 100vh;
 		background-position: -25vw 0;
-	}
-	.resourcesImage {
-		max-width: 100%;
-		height: auto;
 	}
 }
 /*media queries for mobile view*/
