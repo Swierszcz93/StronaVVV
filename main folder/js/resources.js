@@ -47,6 +47,7 @@ function prepareNewContent(rawText) {
 
 function processRow(rowText) {
 	var rowTab = rowText.split(";");
+	rowTab.push("");
 	switch (rowTab[0]) {
 	case 'title':
 		return processTitle(rowTab);
