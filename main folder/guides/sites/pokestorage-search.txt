@@ -1,0 +1,59 @@
+text;GM: Wchodzicie do pomieszczenia…;resourcesTextItalic
+text;Gracz1: Przeszukuje!!! Przeszukuje!!!;resourcesTextItalic
+text;~Najczęściej słyszane słowa podczas grania w D&D;resourcesTextItalic
+title;Wyszukiwanie w pokestorage
+text;W niniejszym poradniku zajmiemy się wyszukiwaniem w pokestorage, wiele osób nie docenia tego narzędzia i przewija niepotrzebnie całość w poszukiwaniu konkretnego pokemona, albo nazywa dziwnie pokemony, by mieć do nich dostęp w pierwszej kolejności. Dzisiaj przedstawie wam jak uprościć sobie życie, zapraszam do lektury.
+stitle;Nazwa
+text;Możemy wpisać tutaj początek/całe imię pokemona np.: “Złota rybka” wtedy pojawią się wszystkie pokemony, które zaczynają się na ten ciąg znaków.
+img;40%;;guides/images/pokestorage-search/zlota.png
+stitle;Gatunek
+text;Wpisując gatunek pokemona (cały) dostajemy w wyniku wszystkie pokemony o danej nazwie. Przykładowo “Magikarp”, zwraca również pokemony o innych nazwach, ale w danym gatunku.
+img;40%;;guides/images/pokestorage-search/magikarp.png
+stitle;Drzewko ewolucji
+text;Wpisując symbol “+” przed nazwą/gatunkiem pokemona otrzymujemy wszystkie pokemony w obrębie jego ewolucji. Przykładowo “+Magikarp” zwróci nam wszystkie Karpie i Gyaradosy.
+img;40%;;guides/images/pokestorage-search/magikarp-tree.png
+stitle;Gotowość do ewolucji
+text;To chyba najbardziej przydatny rodzaj wyszukiwania. Wpisując słowo kluczowe “evolve” wyświetlą się nam wszystkie pokemony, jakie spełniają warunki do ewolucji (odpowiednia ilość candy, bez przedmiotów ewolucyjnych [Niantic ma to naprawić])
+img;40%;;guides/images/pokestorage-search/evolve.png
+text;UWAGA!!! gra nie wylicza ile pokemonów możecie ewoluować, jeśli macie 100 Pidgey Candies to wyświetli wszystkie Pidgeye, a nie pierwsze dziewięć.
+stitle;Combat Power
+text;Wpisując “cpX” otrzymujemy w wyniku wszystkie pokemony, które mają podaną ilość CP. Zapytanie można łączyć w zakres za pomocą myślnika “cpX-Y” dostaniemy wszystkie pokemony o podanym CP z zakresu [X,Y]. Przykładowe wyszukiwanie pomiędzy 1545, a 1600.
+img;40%;;guides/images/pokestorage-search/cp.png
+stitle;Hit Points
+text;Wpisując “hpX” otrzymujemy w wyniku wszystkie pokemony, które mają podaną ilość HP. Zapytanie można łączyć w zakres za pomocą myślnika “hpX-Y” dostaniemy wszystkie pokemony o podanym HP z zakresu [X,Y]. Przykładowe wyszukiwanie pomiędzy 150, a 155.
+img;40%;;guides/images/pokestorage-search/hp.png
+text;UWAGA!!! wyszukujemy po HP jakie mają zdrowe pokemony, martwych nie znajdziemy wpisując “hp0”.
+stitle;Numer w pokedexie
+text;Wpisując numer w wyszukiwarce dostaniemy wszystkie pokemony o podanym numerze, to zapytanie również można łączyć za pomocą myślnika, by uzyskać zakres. Przykładowo wszystkie legendarne ptaki.
+img;40%;;guides/images/pokestorage-search/dex-number.png
+stitle;Typ
+text;Wpisując typy pokemonów “fire”, “flying” wybieramy tylko pokemony, które są danego typu, jeśli posiadają 2 typy, a jednym z nich jest podany przez nas, również zostaną wybrane.
+img;40%;;guides/images/pokestorage-search/type.png
+stitle;Ataki
+text;Poprzedzając nazwę/typ ataku “@” wyszukujemy wszystkie pokemony z podanym atakiem. Przykładowe szukanie pokemonów z Hydro pump’ą oraz z atakami typu “Fighting”.
+img;40%;;guides/images/pokestorage-search/move-hydropump.png
+img;40%;;guides/images/pokestorage-search/move-fighting.png
+stitle;Legendarne pokemony
+text;Wpisując słowo kluczowe “legendary” wyświetlą się nam wszystkie legendarne pokemony.
+img;40%;;guides/images/pokestorage-search/legendary.png
+stitle;Obrońcy gymów
+text;Wpisując słowo kluczowe “defender” możemy sprawdzić, które pokemony siedzą aktualnie w gymach.
+img;40%;;guides/images/pokestorage-search/defender.png
+title;Zaawansowane wyszukiwanie
+stitle;Łączenie zapytań(logiczne “lub”)
+text;Wyszukiwarka pozwala nam na wielokrotne wyszukiwanie za pomocą jednego zapytania. Aby wyszukać wielokrotnie należy wpisać pomiędzy słowa przecinek, średnik lub dwukropek.
+text;Przykład pokazuje wszystkie pokemony o CP 10 oraz Machopy.
+img;40%;;guides/images/pokestorage-search/or-cp-machop.png
+text;Przykład pokazuje wszystkie pokemony z atakami typu fighting oraz Dragonite’y.
+img;40%;;guides/images/pokestorage-search/or-fighting-dragonite.png
+stitle;Łączenie warunków (logiczne “i”)
+text;Aby wyszukać pokemony, które spełniają kilka warunków należy między nie wpisać znak “&” lub “|” (piekło dla programistów Niantica otwiera się).
+text;Przykład pokazuje wszytkie Gyaradosy z Hydro pump’ą.
+img;40%;;guides/images/pokestorage-search/and-gyarados-hydropump.png
+text;Przykład pokazuje wszystkie pokemony które mają typ Fire oraz Flying.
+img;40%;;guides/images/pokestorage-search/and-fireflying.png
+text;Przykład pokazuje Machampy, które mają pomiędzy 2000, a 3000 CP.
+img;40%;;guides/images/pokestorage-search/and-machamp-cp.png
+title;Uwagi
+text; - Znaki unicode nie zawsze działają na iOS
+text; - Wszystkie słowa które wpisujemy muszą być zgodne z językiem gry, który posiadamy, podane tutaj słowa kluczowe odnoszą się do angielskiej wersji gry (oficjalnie dostępnej na rynku polskim)

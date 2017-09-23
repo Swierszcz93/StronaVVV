@@ -11,6 +11,8 @@
 
 .resourcesTitle {
 	font-size: 2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .resourcesSectionTitle {
@@ -24,16 +26,18 @@
 
 .resourcesText {
 	text-align: justify;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+.resourcesImage {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-.resourcesImage {
-	
-}
-
 .resourcesVideo {
-	
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .resourcesTable {
@@ -58,7 +62,7 @@
 	font-size: 0.8em;
 }
 
-.resourcesCurve {
+.resourcesTextItalic {
 	font-style: italic;
 }
 
