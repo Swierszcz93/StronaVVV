@@ -57,3 +57,4 @@ img;40%;;guides/images/pokestorage-search/and-machamp-cp.png
 title;Uwagi
 text; - Znaki unicode nie zawsze działają na iOS
 text; - Wszystkie słowa które wpisujemy muszą być zgodne z językiem gry, który posiadamy, podane tutaj słowa kluczowe odnoszą się do angielskiej wersji gry (oficjalnie dostępnej na rynku polskim)
+autor;autor: VVVswierszcz93
