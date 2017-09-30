@@ -25,7 +25,7 @@ text;Czekanie na atak - aby nie marnować cennych premier balli należy rzucać 
 text;Circle lock
 text;Jest to poniekąd rozszerzenie poprzedniej metody, dzięki niej możemy ustawić sobie kółko na taki rozmiar jaki odpowiada naszym umiejętnościom i mieć pewność że takie zostanie. Jak to zrobić?
 text; 1. Przytrzymujemy kulę na dole ekranu do momentu aż kółko osiągnie satysfakcjonujący nas rozmiar i puszczamy (zostawiamy na miejscu, nie rzucamy).
-text; 2. zekamy na animację ataku (nie skoku) Pokémona.
+text; 2. Czekamy na animację ataku (nie skoku) Pokémona.
 text; 3. Kiedy rozpocznie się atak łapiemy balla i wyrzucamy go przed zakończeniem ruchu Pokémona (bardzo ważnym jest, żeby złapać kulę po rozpoczęciu animacji i wypuścić ją przed jej zakończeniem).
 text;Jeżeli wszystko zrobiliśmy tak jak w opisie powyżej, koło powinno zostać w takiej pozycji, w jakiej wcześniej je ustawiliśmy;
 text;Jeśli Pokémon wyskoczy z Pokéballa, nie trzeba ponownie ustawiać koła (zostanie takie jak wcześniej), od razu przechodzimy do punktu drugiego.;resourcesMarginBottom
