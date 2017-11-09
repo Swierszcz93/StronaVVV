@@ -25,12 +25,14 @@
 		<section class="text-center title">Gracze VVV z 40 lvlem</section>
 		<table class="table-40lvl">
 			<tr>
-				<td>Gracz</td>
-				<td>Data osiągnięcia</td>
+				<th>Lp.</th>
+				<th>Gracz</th>
+				<th>Data osiągnięcia</th>
 			</tr>
 			<tr ng-repeat="player in playersTable">
 				<td>{{player.split(';')[0]}}</td>
 				<td>{{player.split(';')[1]}}</td>
+				<td>{{player.split(';')[2]}}</td>
 			</tr>
 		</table>
 	</section>

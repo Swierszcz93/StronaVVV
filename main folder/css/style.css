@@ -157,9 +157,13 @@ a:hover {
 	margin: 0 auto;
 }
 
-.table-40lvl td {
+.table-40lvl td, .table-40lvl th {
 	border: 2px solid #0088ff;
 	padding: 10px;
+}
+
+.table-40lvl th {
+	background: #33bbff;
 }
 
 .table-players {
