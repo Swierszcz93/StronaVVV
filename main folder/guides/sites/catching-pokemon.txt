@@ -29,7 +29,5 @@ text; 2. Czekamy na animację ataku (nie skoku) Pokémona.
 text; 3. Kiedy rozpocznie się atak łapiemy balla i wyrzucamy go przed zakończeniem ruchu Pokémona (bardzo ważnym jest, żeby złapać kulę po rozpoczęciu animacji i wypuścić ją przed jej zakończeniem).
 text;Jeżeli wszystko zrobiliśmy tak jak w opisie powyżej, koło powinno zostać w takiej pozycji, w jakiej wcześniej je ustawiliśmy;
 text;Jeśli Pokémon wyskoczy z Pokéballa, nie trzeba ponownie ustawiać koła (zostanie takie jak wcześniej), od razu przechodzimy do punktu drugiego.;resourcesMarginBottom
-text;Curve ball bug - w grze obecnie występuje błąd, przez który bonus za curve balla nie jest naliczany. W dalszym ciągu nie jest znana dokładna przyczyna, ale z prowadzonych testów wynika, iż istnieje strefa, po trafieniu której pomimo podkręcenia nie dostaniemy premii. Może to także tłumaczyć, dlaczego części graczy wydaje się, że łatwiej złapać greatem niż excellentem (im mniejsze kółko tym prościej o przypadkowe trafienie w "czerwoną strefę" i nie otrzymanie premii za podkręcenie, gdzie curve great daje nam większą szansę na złapanie niż prosty excellent).
-img;50%;;guides/images/catching/curveball-bug.png
 autor;autor: VVVShyvro, korekta: VVVTimon011
 
