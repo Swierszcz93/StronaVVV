@@ -148,7 +148,7 @@ function processSingleCell(cell, td) {
 function setHeightForVideos() {
 	var videos = document.querySelectorAll(".resourcesVideo");
 	for (i = 0; i < videos.length; i++) {
-		videos[i].style.height = (videos[i].offsetWidth * 9 / 16) + "px";
+		videos[i].childNodes[0].style.height = (videos[i].offsetWidth * 9 / 16) + "px";
 	}
 
 }

@@ -28,7 +28,7 @@ text; 1. Przytrzymujemy kulę na dole ekranu do momentu aż kółko osiągnie sa
 text; 2. Czekamy na animację ataku (nie skoku) Pokémona.
 text; 3. Kiedy rozpocznie się atak łapiemy balla i wyrzucamy go przed zakończeniem ruchu Pokémona (bardzo ważnym jest, żeby złapać kulę po rozpoczęciu animacji i wypuścić ją przed jej zakończeniem).
 text;Jeżeli wszystko zrobiliśmy tak jak w opisie powyżej, koło powinno zostać w takiej pozycji, w jakiej wcześniej je ustawiliśmy;
-video;80%;500px;https://www.youtube.com/watch?v=SJ2eAEM3w_0?start=159
+video;80%;;https://www.youtube.com/watch?v=SJ2eAEM3w_0?start=155
 text;Jeśli Pokémon wyskoczy z Pokéballa, nie trzeba ponownie ustawiać koła (zostanie takie jak wcześniej), od razu przechodzimy do punktu drugiego.;resourcesMarginBottom
 autor;autor: VVVShyvro, korekta: VVVTimon011
 
