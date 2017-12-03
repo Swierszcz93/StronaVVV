@@ -81,7 +81,6 @@ Narsil
 nAVESOME
 ndles07
 nicvcin
-Niedziowski
 nigelllo19
 nomoretrojans 
 Oyula
@@ -121,6 +120,7 @@ trzynastego13
 Vandergahast 
 VVVAdamigo50
 VVVAdamski
+VVVAdeyre
 VVVAghaowyn 
 VVVApocalipsLg
 VVVAvenria 
@@ -130,7 +130,7 @@ VVVBoskiAdriano
 VVVbunaksaur
 VVVczaczacza 
 VVVczubak188 
-VVVdaniel71
+VVVDaniel69
 VVVDJFURMAN 
 VVVEdytaWro
 VVVElMariann
@@ -160,6 +160,7 @@ VVVLubieWPupcie
 VVVluki10
 VVVM4ciey 
 VVVM4rcz3ll0
+VVVMach
 VVVMadmalina 
 VVVmagnuz
 VVVMenog87 
@@ -168,8 +169,10 @@ VVVMinik666
 VVVMiroslav
 VVVMixczu 
 VVVMonku 
+VVVMrJezykQQ
 VVVMrlppon 
 VVVneymar 
+VVVNiedziu
 VVVnightwissh 
 VVVOleczek420 
 VVVolicatty 
@@ -217,3 +220,4 @@ Yendroosh
 ytahyta 
 ZadzioraTusia
 Zinnatix
+vramzes
